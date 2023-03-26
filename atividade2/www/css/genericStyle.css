@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px; 
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.headerGenerico{
+    background-color: rgba(12,240,240,0);
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vh;
+    height: 16vh;
+    width: 100vw;
+    float: left;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 4vw;
+    height: 4vh;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(233, 233, 233);
+    box-shadow: inset 0 0 1px grey;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgba(140, 140, 140, 1);
+    border-radius: 2px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(90, 90, 90, 1);
+}

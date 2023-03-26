@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=yes">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" href="css/genericStyle.css">
+	    <link rel="stylesheet" href="css/indexStyle.css">
+        <title>Grupo Jean | Home</title>
+
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <div class="canvasBio">
+            <div class = 'headerGenerico'>Sobre o grupo "Jean"</div>
+	        <div id = "registros" class = 'registros'></div>
+	        <div id = "botaoAdicionar" class = 'botaoCadastra'>Incluir novo</div>
+            
+        </div>
+
+        <div class="canvasCadastro cadastroHide" id="canvasCadastro">
+            <div class = "areaCadastro" id="areaCad"> 
+                <div class= 'headerGenerico headerWhiteTextModifier'>Adicionar nova bio</div>
+                <div id="area" class= 'areaEdicao'>
+                    <div class= 'descrInput'>Foto</div>
+                    <div class= 'areaInput'><input id="fotoUpload" type="file" name="fotoUpload" class = "fotoInput" /></div>
+                    <div class= 'descrInput'>Nome</div>
+                    <div class= 'areaInput'><input id="nomeForm" type="text" name="nomeForm" class = "textInput" /></div>
+                    <div class= 'descrInput'>Idade</div>
+                    <div class= 'areaInput'><input id="idadeForm" type="number" name="idadeForm" class = "textInput" /></div>
+                    <div class= 'descrInput'>Profissao</div>
+                    <div class= 'areaInput'><input id="profissaoForm" type="text" name="profissaoForm" class = "textInput" /></div>
+                    <div class= 'descrInput'>Bio</div>
+                    <div class= 'areaInput areaInputBio'><textarea  id="bioForm"  name="bioForm" class = "bioInput"></textarea></div>
+                </div>
+                <div id="btnCadastra" class= 'botaoCadastra '>Cadastrar</div>
+            </div>
+            
+        </div>
+        
+      
+    </body>
+</html>
